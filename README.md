@@ -8,6 +8,12 @@
 
 
 
+前端 npm run dev，http://localhost:8080/
+
+后端 http://localhost:8081/
+
+
+
  mysql -u root -p 密码123456 修改数据库
 
 运行 BsdemoApplication.java ，后端ok
