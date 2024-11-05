@@ -1,0 +1,13 @@
+package com.example.bsdemo.mapper;
+
+import com.example.bsdemo.entity.User;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface UserMapper {
+    @Select("select * from user")
+    List<User> queryAll();
+}
