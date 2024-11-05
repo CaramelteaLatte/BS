@@ -2,7 +2,6 @@
   <div class="login-container">
     <!-- 背景覆盖层 -->
     <div class="background-overlay"></div>
-    
     <el-form :model="loginForm" class="login-form">
       <h1>Welcome</h1>
       <el-form-item>
@@ -19,7 +18,6 @@
             <el-button
               @click="togglePasswordVisibility"
               type="text"
-              icon="el-icon-view"
               :icon="passwordVisible ? 'el-icon-view-off' : 'el-icon-view'"
             ></el-button>
           </template>
