@@ -6,6 +6,8 @@
 
 详细的前后端https://www.cnblogs.com/sunshine233/p/18360207
 
+意外搜到有关跳转外链的指导https://segmentfault.com/a/1190000044057904
+
 
 
 前端 npm run dev，http://localhost:8080/
@@ -19,3 +21,11 @@
 运行 BsdemoApplication.java ，后端ok
 
 前端开写
+
+
+- vue
+  - Login: 登录界面
+  - Register: 注册界面
+  - Home: 商品搜索引擎界面
+  - Products: 商品详情界面
+  - ShoppingCart: 用户购物车界面（实时显示升降价）
